@@ -116,7 +116,7 @@ def edit(sno):
                 db.session.commit()
                 return redirect('/edit/'+sno)
         post_date = Firstflaskdbtbl.query.filter_by(sno = sno).first()
-        return render_template('edit.html', params = params, post =  post_date)
+        return render_template('edit.html', params = params, post =  post_date, sno=sno)
     return redirect('/login')
 
 @app.route("/delete/<string:sno>", methods=['GET','POST'])
