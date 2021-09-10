@@ -1,0 +1,17 @@
+{
+  "params":
+  {
+    "local_server": "True",
+    "local_uri": "mysql://root:@localhost/firstflaskdb",
+    "prod_uri": "mysql://root:@localhost/firstflaskdb",
+    "fb_url" : "https://facebook.com",
+    "tw_url": "https://twitter.com",
+    "gt_url": "https://github.com",
+    "no_of_posts": 3,
+    "gmail_user": "ankitgarg453@gmail.com",
+    "gmail_pass": "Ankitgarg@17195",
+    "username": "ankit",
+    "userpass": "ankit@123",
+    "file_upload_path": "E:\\python\\flask\\static\\files"
+  }
+}
