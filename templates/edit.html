@@ -22,7 +22,7 @@
                 	
                 {% include "uploader.html" %}
 
-					<form id="contactForm" action="/edit/{{post.sno}}" method="post">
+					<form id="contactForm" action="/edit/{{sno}}" method="post">
                         <div class="form-floating">
                             <input class="form-control" id="title" type="text" name="title" placeholder="Title" data-sb-validations="required" value="{{post.title}}" />
                             <label for="title">Title</label>
